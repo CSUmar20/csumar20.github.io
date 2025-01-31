@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name], a college junior seeking internships in [Your Field].">
+    <meta name="keywords" content="portfolio, Computer science, internships, C++,CSS,HTML,SQL,Java">
+    <meta name="author" content="Your Name">
+    <title>Umar Khan's - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="styles/styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- Overlay for Mobile Navigation -->
+    <div id="overlay">
+        <div>
+            <i class="fa fa-times" title="Close mobile navigation" onclick="off()"></i>
+        </div>
+        <div class="overlay-text">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="nav full-nav">
+            <div>
+                <h1>Umar Khan</h1>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <nav class="nav mobile-nav">
+            <div>
+                <h1>Umar Khan</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars" title="Open mobile navigation" onclick="on()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <div class="hero-container">
+            <img class="hero-image" src="images/your_hero_image.jpg" alt="Your Hero Image">
+            <div class="hero-text">
+                <h1>Hi, I'm Umar Khan</h1>
+                <p>A college junior pursuing Computer Science and seeking internships in Software Engineering.</p>
+                <a href="contact.html" class="hero-btn">Contact Me</a>
+            </div>
+        </div>
+
+        <!-- Red Spacer -->
+        <div class="red-spacer"></div>
+
+        <!-- Projects Section -->
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-child">
+                    <h4>Survey Form | Elmhurst </h4>
+                    <img class="project-image" src="images/Survey.png" alt="Project 1">
+                    <p>(HTML, C#, CSS, SQL) Created a website that is interactive and user-friendly survey form using HTML.
+                        Implementation of C# to handle the submissions and validation inputs. Utilized SQL to design and manage a database for storing user data and emails securely.  
+                    </p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-child">
+                    <h4>Optimal Path | Elmhurst</h4>
+                    <img class="project-image" src="images/TSP.png" alt="Project 2">
+                    <p>(C++) Implemented an efficient algorithm to solve the TSP, to create the shortest path and return to the starting point. 
+                        Utilized advanced techniques such as dynamic programming to compute the optimal path. 
+                    </p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-child">
+                    <h4>BlueFlix | Elmhurst </h4>
+                    <img class="project-image" src="images/BF.png" alt="Project 3">
+                    <p>(Java, HTML, SQL, CSS,) Developed a full stack web application that uses a MySQL database with a local host website using Eclipse.
+                        Implemented dynamic content display to access and retrieve movie data, enabling users to review and filter information seamlessly.  
+                    </p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Umar Khan</h3>
+        </div>
+        <div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <h4>Copyright 2025 Umar Khan</h4>
+            </div>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/umarmkhan9/">
+                <img class="social-icon" src="images/linked.png" alt="LinkedIn"></a>
+            <a href="https://github.com/CSUmar20">
+                <img class="social-icon" src="images/git.png" alt="GitHub"></a>
+        </div> 
+    </footer>
+</body>
+
+</html>
